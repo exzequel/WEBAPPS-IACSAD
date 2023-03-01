@@ -12,8 +12,11 @@
 // PHP Practice Activity 2
 
 $str = "My name is Khan";
+$str5 = "my name is Sonoo jaiswal";
+$str = strtolower($str);
 
-echo $str;
+
+echo "strtolower: " . $str . "<br/>";
 
 
 ?>
