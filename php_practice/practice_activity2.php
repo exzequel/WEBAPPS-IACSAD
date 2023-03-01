@@ -11,7 +11,9 @@
 <?php
 // PHP Practice Activity 2
 
+$str = "My name is Khan";
 
+echo $str;
 
 
 ?>
