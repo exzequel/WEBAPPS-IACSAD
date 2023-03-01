@@ -20,7 +20,7 @@ $str3 = ucfirst($str);
 $str4 = lcfirst($str);
 
 $str6 = ucwords($str5);
-
+$str7 = strrev($str5);
 
 
 
@@ -30,6 +30,7 @@ echo "ucfirst: " . $str3 . "<br/>";
 echo "lcfirst: " . $str4 . "<br/>";
 
 echo "ucwords: " . $str6 . "<br/>";
+echo "strrev: " . $str7 . "<br/>";
 
 
 
