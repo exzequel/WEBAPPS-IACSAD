@@ -15,11 +15,15 @@ $str = "My name is Khan";
 $str5 = "my name is Sonoo jaiswal";
 $str = strtolower($str);
 $str2 = strtoupper($str);
+$str3 = ucfirst($str);
+
 
 
 
 echo "strtolower: " . $str . "<br/>";
 echo "strtoupper: " . $str2 . "<br/>";
+echo "ucfirst: " . $str3 . "<br/>";
+
 
 
 
