@@ -21,6 +21,7 @@ $str4 = lcfirst($str);
 
 $str6 = ucwords($str5);
 $str7 = strrev($str5);
+$str8 = strlen($str5);
 
 
 
@@ -31,7 +32,7 @@ echo "lcfirst: " . $str4 . "<br/>";
 
 echo "ucwords: " . $str6 . "<br/>";
 echo "strrev: " . $str7 . "<br/>";
-
+echo "strlen: " . $str8 . "<br/>";
 
 
 
