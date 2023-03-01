@@ -11,30 +11,30 @@
 <?php
 // PHP Practice Activity 2
 
-$str = "My name is Khan";
+// declare string content
+$str = "My name is Khan"; 
 $str5 = "my name is Sonoo jaiswal";
 
-$str = strtolower($str);
-$str2 = strtoupper($str);
-$str3 = ucfirst($str);
-$str4 = lcfirst($str);
+$str = strtolower($str); // modify ALL letters of string to lowercase
+$str2 = strtoupper($str); // modify ALL letters of string to uppercase
+$str3 = ucfirst($str); // modify FIRST character of string to uppercase
+$str4 = lcfirst($str); // modify FIRST character of string to lowercase
 
-$str6 = ucwords($str5);
-$str7 = strrev($str5);
-$str8 = strlen($str5);
+$str6 = ucwords($str5); // modify FIRST CHARACTER of every word in a string to uppercase
+$str7 = strrev($str5); // reverses the content of a string
+$str8 = strlen($str5); // calculates the length of a string
 
 
-
-echo "strtolower: " . $str . "<br/>";
+echo "strtolower: " . $str . "<br/>"; 
 echo "strtoupper: " . $str2 . "<br/>";
 echo "ucfirst: " . $str3 . "<br/>";
 echo "lcfirst: " . $str4 . "<br/>";
 
+echo "<br />";
+
 echo "ucwords: " . $str6 . "<br/>";
 echo "strrev: " . $str7 . "<br/>";
 echo "strlen: " . $str8 . "<br/>";
-
-
 
 ?>
 
