@@ -14,9 +14,13 @@
 $str = "My name is Khan";
 $str5 = "my name is Sonoo jaiswal";
 $str = strtolower($str);
+$str2 = strtoupper($str);
+
 
 
 echo "strtolower: " . $str . "<br/>";
+echo "strtoupper: " . $str2 . "<br/>";
+
 
 
 ?>
