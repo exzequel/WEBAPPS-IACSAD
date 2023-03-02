@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBAPPS Sample</title>
+    <title>WEBAPPS Practice Exercise</title>
 </head>
 <body>
 
 <?php
+// ADIZON, EXEQUEL
 
-$a = 123;
+$a = 123; // decimal number
 var_dump($a);
 echo "<br>";
 
-$b = -123;
-var_dump($a);
+$b = -123; // negative number
+var_dump($b);
 echo "<br>";
 
-$c = 123;
-var_dump($a);
+$c = 0x1A; // hexadecimal number
+var_dump($c);
 echo "<br>";
+
+$d = 0123; // octal number
+var_dump($d);
+
 
 ?>
     
