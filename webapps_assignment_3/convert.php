@@ -10,6 +10,8 @@
 <body>
 
 <?php
+    // ADIZON, EXEQUEL B. (IACSAD)
+    // WEBAPPS ASSIGNMENT 3
 
     $length = $_POST['convert-length'];
     $meter = $length/100;
@@ -69,9 +71,7 @@
             ?>
 
         </div>
-    </div>        
-        
+    </div>         
 </form>
-    
 </body>
 </html>
