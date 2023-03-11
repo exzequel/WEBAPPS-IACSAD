@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEBAPPS Assignment 3</title>
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
 
@@ -24,8 +25,8 @@
 
 ?>
 
- <form action="convert.php" method="post">
-
+<form action="convert.php" method="post">
+    <div class="container">
         <div class="length-conversion">
 
             <h1>Length Conversion</h1>
@@ -66,8 +67,9 @@
             ?>
 
         </div>
-        <br>        
-        <button><a href="php-converter.html">Restart</a></button>
+    </div>        
+        
+    <button><a href="php-converter.html">Restart</a></button>
 
 </form>
     
