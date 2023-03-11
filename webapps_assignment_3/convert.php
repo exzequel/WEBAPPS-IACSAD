@@ -32,10 +32,10 @@
             <h1>Length Conversion</h1>
             <label for="convert-length"></label> Enter length in centimeter: 
             <input type="number" name="convert-length" ><br><br>
-            <input type="submit" value="Convert">
+            <input class="btn" type="submit" value="Convert">
 
             <?php
-            echo "<br>Length in meter: ".$meter;
+            echo "<br><br>Length in meter: ".$meter;
             echo "<br>Length in kilometer: ".$kilometer;
             ?>
             
@@ -43,34 +43,34 @@
 
         <div class="rectangle-area">
 
-            <h1>Area of the Rectangle</h1>
+            <h1>Area of a Rectangle</h1>
             <label for="rectangle-length"></label> Enter length: <input type="number" name="rectangle-length" ><br><br>
             <label for="rectangle-width"></label> Enter width: <input type="number" name="rectangle-width" ><br><br>
-            <input type="submit" value="Calculate">
+            <input class="btn" type="submit" value="Calculate">
 
             <?php 
-            echo "<br>Area of rectangle: ".$rectangle_area;
+            echo "<br><br>Area of rectangle: ".$rectangle_area;
             ?>
+
+            <br><br><button class="btn"><a href="php-converter.html">Restart</a></button>
 
 
         </div>
 
         <div class="circle-area">
 
-            <h1>Area of Circle</h1>
+            <h1>Area of a Circle</h1>
             <label for="radius"></label> Enter radius: 
             <input type="number" name="radius" ><br><br>
-            <input type="submit" value="Calculate">
-
+            <input class="btn" type="submit" value="Calculate">
+ 
             <?php
-            echo "<br>Area of circle: ".$area;
+            echo "<br><br>Area of circle: ".$area;
             ?>
 
         </div>
     </div>        
         
-    <button><a href="php-converter.html">Restart</a></button>
-
 </form>
     
 </body>
