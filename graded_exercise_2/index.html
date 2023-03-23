@@ -36,17 +36,18 @@
             margin-top: 10px;
         }
 
-                label {
-            display: block;
+        label {
             margin-bottom: 0.5rem;
             font-weight: bold;
+            display: inline-block;
+			width: 150px;
+			margin-right: 10px;
         }
 
         input[type="text"],
         input[type="number"],
         input[type="tel"],
         select {
-            width: 100%;
             padding: 0.5rem;
             border: none;
             border-radius: 5px;
@@ -92,24 +93,24 @@
         <h1>REGISTRATION FORM:</h1>
 
         <hr>
-        
+
         <form action="results.php" method="POST">
             <p>
                 <label for="">Complete Name: </label>
-                <input type="text" name="first_name">, <input type="text" name="last_name"> <input type="text"
-                    name="middle_initial" maxlength="2" id="middle_initial">
+                <input type="text" name="last_name" placeholder="LastName">, <input type="text" name="first_name" placeholder="FirstName"> <input type="text"
+                    name="middle_initial" maxlength="2" id="middle_initial" placeholder="M.I">
             </p>
             <p>
                 <label for="">Address: </label>
-                <input type="text" name="address">
+                <input type="text" name="address" placeholder="Address">
             </p>
             <p>
                 <label for="">Contact Number: </label>
-                <input type="number" name="contact_number" id="">
+                <input type="number" name="contact_number" id="" placeholder="Contact Number">
             </p>
             <p>
                 <label for="">Date of Birth: </label>
-                <input type="date" name="birthday" id="">
+                <input type="date" name="birthday" id="" placeholder="Date of Birth">
             </p>
             <p>
                 <label for="">Gender: </label>
@@ -118,14 +119,14 @@
             </p>
             <p>
                 <label for="">Office Address: </label>
-                <input type="text" name="office_address">
+                <input type="text" name="office_address" placeholder="Office Address">
                 <label for="">Phone Number: </label>
-                <input type="tel" name="phone">
+                <input type="tel" name="phone" placeholder="Phone Number">
             </p>
 
             <p>
                 <label for="">Position: </label>
-                <input type="text" name="position">
+                <input type="text" name="position" placeholder="Position">
                 <label for="">Employment Status: </label>
                 <select name="employment_status" id="">
                     <option value="Permanent">Permanent</option>
@@ -144,7 +145,7 @@
 
             <p>
                 <label for="">Co-Borrower: </label>
-                <input type="text" name="co_borrower">
+                <input type="text" name="co_borrower" placeholder="Co-Borrower">
             </p>
 
             <button type="submit">Submit Registration</button>
