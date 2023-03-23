@@ -12,6 +12,7 @@
 <body>
     <div class="container">
         <form method="post">
+            <h1>Find the Factorial of a Number</h1>
             <label for="factorial">Enter a number to find its factorial: </label>
             <input type="number" required name="factorial">
             <button type="submit" class="btn">Calculate</button>
