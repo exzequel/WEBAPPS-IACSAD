@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Member Information</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+        :root {
+            --background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+        }
 
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: #f2f2f2;
+            background: var(--background);
             font-family: 'Space Mono', monospace;
+            color: white;
         }
 
         .container {
@@ -23,7 +28,12 @@
             padding: 2.5rem;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            background-color: white;
+            background: var(--background);
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
         }
 
         h1,
