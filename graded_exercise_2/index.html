@@ -7,17 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             background-color: #f2f2f2;
+            font-family: 'Space Mono', monospace;
         }
 
         .form-container {
-            width: 50%;
-            padding: 1rem;
+            width: 55%;
+            padding: 2.5rem;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             background-color: white;
@@ -40,13 +43,14 @@
             margin-bottom: 0.5rem;
             font-weight: bold;
             display: inline-block;
-			width: 150px;
+			width: 200px;
 			margin-right: 10px;
         }
 
         input[type="text"],
         input[type="number"],
         input[type="tel"],
+        input[type="date"],
         select {
             padding: 0.5rem;
             border: none;
@@ -59,6 +63,7 @@
         input[type="text"]:focus,
         input[type="number"]:focus,
         input[type="tel"]:focus,
+        input[type="date"]:focus,
         select:focus {
             outline: none;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -89,15 +94,14 @@
         <h1>RICHARD GWAPO COOPERATIVE INCORPORATED</h1>
         <h3>Forever Gwapo St., Mandaluyong City</h3>
         <h3>Telephone #: 143-4456</h3>
+        <hr>
 
         <h1>REGISTRATION FORM:</h1>
-
-        <hr>
 
         <form action="results.php" method="POST">
             <p>
                 <label for="">Complete Name: </label>
-                <input type="text" name="last_name" placeholder="LastName">, <input type="text" name="first_name" placeholder="FirstName"> <input type="text"
+                <input type="text" name="last_name" placeholder="LastName"> , <input type="text" name="first_name" placeholder="FirstName"> <input type="text"
                     name="middle_initial" maxlength="2" id="middle_initial" placeholder="M.I">
             </p>
             <p>
