@@ -21,6 +21,7 @@
             background: var(--background);
             font-family: 'Space Mono', monospace;
             color: white;
+            overflow: hidden;
         }
 
         .container {
