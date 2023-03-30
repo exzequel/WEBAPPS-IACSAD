@@ -11,7 +11,7 @@
 <body>
     <form action="program_3.php" method="POST">
         <label for="square">Enter the square side [1-20]: </label>
-        <input type="number" name="square" id="">
+        <input type="number" name="square" id="" required>
         <input type="submit" value="Submit">
     </form>
 

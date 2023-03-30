@@ -11,11 +11,11 @@
 <body>
     <form action="program_4.php" method="post">
         <label for="rows">Enter an odd number between 1 and 19:</label>
-        <input type="number" name="rows" id="rows">
+        <input type="number" name="rows" id="rows" required>
         <input type="submit" value="Submit">
     </form>
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (isset($_POST['rows']))  {
         $rows = $_POST["rows"];
         while (true) {
             if ($rows % 2 == 0 || $rows > 19) {
