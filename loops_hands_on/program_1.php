@@ -9,9 +9,9 @@
 <body>
 <form action="program_1.php" method="POST">
     <label for="ticket">Enter ticket type [1-4]: </label>
-    <input type="number" name="ticket" id="">
+    <input type="number" name="ticket" id="" required>
     <label for="kilometers">Enter kilometers travelled: </label>
-    <input type="number" name="kilometers" id="">
+    <input type="number" name="kilometers" id="" required>
     <input type="submit" value="Calculate">
 
 
