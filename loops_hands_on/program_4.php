@@ -10,7 +10,7 @@
 
 <body>
     <form action="program_4.php" method="post">
-        <label for="rows">Enter an odd number between 1 and 19:</label>
+        <label for="rows">Enter an odd number for the diamond size (1-19):</label>
         <input type="number" name="rows" id="rows" required>
         <input type="submit" value="Submit">
     </form>
