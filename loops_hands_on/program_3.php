@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Program 3: Square</title>
 </head>
-
 <body>
     <form action="program_3.php" method="POST">
         <label for="square">Enter the square side [1-20]: </label>
@@ -51,5 +49,4 @@
     }
     ?>
 </body>
-
 </html>
