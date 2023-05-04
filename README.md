@@ -1,2 +1,2 @@
 # WEBAPPS-IACSAD
-WEBAPPS Projects, Practice Exercises and Laboratory Activities
+Notes, Projects, Practice Exercises, and Laboratory Activities for WEBAPPS (WEB APPLICATIONS DEVELOPMENT) - 2023
